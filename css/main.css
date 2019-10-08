@@ -1,4 +1,84 @@
-body{
-    margin: 0;
-    padding: 0;
+ 
+body, html {
+  margin:0;
+  padding:0;
+  height: 100%;
 }
+
+h1{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.who-we-are{
+  margin:10px;
+  padding:10px;
+}
+.img-fluid{
+  margin:15px;
+  padding:15px;
+}
+
+.intro-2 {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.container{
+  align-self: center;
+}
+
+h3{
+  margin: 50px;
+  padding: 50px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Hind', sans-serif;
+}
+
+.carouselslide > .item > img{
+  margin:auto;
+  }
+
+  h4{
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Hind', sans-serif;
+  }
+
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .carousel-item{
+    margin-left:20%;
+  }
+  .d-block{
+    margin-left:20%;
+  }
